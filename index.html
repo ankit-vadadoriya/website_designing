@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- *****************************slider******************************** -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <!-- *****************************slider******************************** -->
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body class='main' id='main'>
+
+    <div class="scrollBtn">
+      <button onclick="topFunction()" id="myBtn" title="Go to top" class="scrollBtn1">
+        <img width="40" height="40" src="https://img.icons8.com/ios/50/circled-up-2.png" alt="circled-up-2"/>
+      </button>
+    </div>
+    <section>
+        <div class="logo">
+            <img src="./images/0.png" alt="">
+        </div>
+    </section>
+
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <div>
+                    <img width="25" height="25" src="https://img.icons8.com/color/48/twitter--v1.png" alt="twitter--v1"/>
+                    <img width="25" height="25" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="facebook-new"/>
+                    <a href="https://instagram.com/_ankit_vadadoriya_" target="_blank"><img width="25" height="25" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/></a>
+                  </div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link">Testimonials</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link">Pricing</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex navLastIcon" role="search">
+                        <i class="fa fa-info-circle mx-2"></i>
+                        <i class="fa fa-search mx-2"></i>
+                    </form>
+                </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <section>
+      <div class="py-4">
+          <div class="center slider">
+            <div class="slide">
+              <img src="./images/1.1.jpg" class="sliderImg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./images/1.2.jpg" class="sliderImg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./images/1.3.jpg" class="sliderImg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./images/1.4.jpg" class="sliderImg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./images/1.5.jpg" class="sliderImg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./images/1.6.jpg" class="sliderImg" alt="" />
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="secondSection py-5">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 order-2 order-md-1">
+              <div class="row align-items-center justify-content-center g-3">
+                <div class="col-6 p-3">
+                  <div class="card border-0 secondCards">
+                    <img class="card-img-top" src="./images/2.1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h6 class="card-text text-center">Products</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 p-3">
+                  <div class="card border-0 secondCards mt-5">
+                    <img class="card-img-top" src="./images/2.2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h6 class="card-text text-center">Restaurants</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="card border-0 secondCards" style="margin-top: -50px;">
+                    <img class="card-img-top" src="./images/2.3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h6 class="card-text text-center">Racipes</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="card border-0 secondCards">
+                    <img class="card-img-top" src="./images/2.4.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h6 class="card-text text-center">Still Life</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 order-1 order-md-2">
+              <div>
+                <h2>My Service</h2>
+                <p>I would like to give you a unique photography experience, capture your products with excellent composition and lighting skills.</p>
+                <p style="font-size: 13px;">Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis elit interdum. Duis mollis, est non commodo luctus, nisi erat ligula mollis metus auctor fringilla.</p>
+                <button type="button" class="btn rounded-pill secondBtn mr-2">See My Works</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="thirdSection py-5">
+        <div class="text-center thirdText">
+          <h1>I take photographs with creativity, concept & passion</h1>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="fourthSection py-5">
+        <div class="container">
+          <div class="fourthText">
+            <h2>My Selected Shots</h2>
+            <p>photography is my passion and i love to turn ideas into beautiful things.</p>
+          </div>
+          <ul class="nav nav-tabs fourthTab justify-content-center">
+            <li class="nav-item navTab">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#all">ALL</a><!-- <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#all">All</button> -->
+            </li>
+            <li class="nav-item navTab">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#foods">FOODS</a><!-- <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#foods">FOODS</button> -->
+            </li>
+            <li class="nav-item navTab">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#drinks">DRINKS</a>
+            </li>
+            <li class="nav-item navTab">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#events">EVENTS</a>
+            </li>
+            <li class="nav-item navTab">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#pastries">PASTRIES</a>
+            </li>
+          </ul>
+          <div class="tab-content">
+          <div class="gallery tab-pane active" id="all">
+            <div class="image">
+              <img src="./images/4.1.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/4.3.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/4.4.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/4.5.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/4.6.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/4.7.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/4.8.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/4.9.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/4.10.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/4.11.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/4.12.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/1.1.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/1.2.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/1.3.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/1.4.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/1.5.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/1.6.jpg" alt="image" />
+            </div>
+          </div>   
+          <div class="gallery tab-pane" id="foods">
+            <div class="image">
+              <img src="./images/4.2.1.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/4.2.2.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/4.2.3.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/4.2.4.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/4.2.5.jpg" alt="image" />
+            </div>
+            <div class="image">
+              <img src="./images/4.2.6.jpg" alt="image" />
+            </div>
+          </div>
+          <div class="gallery tab-pane" id="drinks">
+            <div class="image">
+              <div class="image">
+                <img src="./images/4.3.1.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.3.2.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.3.3.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.3.4.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.3.5.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.3.6.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.3.7.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.3.8.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.3.9.jpg" alt="image" />
+              </div>
+            </div>
+          </div>
+          <div class="gallery tab-pane" id="events">
+            <div class="image">
+              <div class="image">
+                <img src="./images/4.4.1.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.4.2.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.4.3.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.4.4.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.4.5.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.4.6.jpg" alt="image" />
+              </div>
+            </div>
+          </div>
+          <div class="gallery tab-pane" id="pastries">
+            <div class="image">
+              <div class="image">
+                <img src="./images/4.5.1.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.5.2.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.5.3.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.5.4.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.5.5.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.5.6.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.5.7.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.5.8.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.5.9.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.5.10.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.5.11.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.5.12.jpg" alt="image" />
+              </div>
+              <div class="image">
+                <img src="./images/4.5.13.jpg" alt="image" />
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="fifthSection py-5">
+        <div class="container">
+        <div class="fifthText">
+          <h2>Happy Customers</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="card p-3 fifthCards">
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2">
+                  <div class="stars">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <p>
+                </h6>
+                  <p class="card-text">“Fusce dapibus, tellus ac cursus tortor mauris condimentum fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed.”</p>
+                  <h5>Coriss Ambady</h5>
+                  <p class="m-0">Financial Analyst</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card p-3 fifthCards">
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2">
+                  <div class="stars">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <p>
+                </h6>
+                  <p class="card-text">“Fusce dapibus, tellus ac cursus tortor mauris condimentum fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed.”</p>
+                  <h5>Cory Zamora</h5>
+                  <p class="m-0">Marketing Specialist</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card p-3 fifthCards">
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2">
+                  <div class="stars">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <p>
+                </h6>
+                  <p class="card-text">“Fusce dapibus, tellus ac cursus tortor mauris condimentum fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed.”</p>
+                  <h5>Nikolas Brooten</h5>
+                  <p class="m-0">Sales Manager</p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sixthSection py-5">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-6">
+              <div>
+                <h1>About Me</h1>
+                <p>I'm Caitlyn Sandbox, a photographer specializing in food, drink and product photography.</p>
+                <p style="font-size: 13px;">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula.</p>
+                <p style="font-size: 13px;">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur.</p>
+                <button type="button" class="btn rounded-pill secondBtn mr-2">Learn More</button>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div>
+                <!-- <img src="./images/6.1.jpg" class="sixthBanner" alt=""> -->
+                <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <pattern id="img" patternUnits="userSpaceOnUse" width="100" height="100">
+                      <!-- <image xlink:href="https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg" x="-25" width="150" height="100" /> -->
+                      <image xlink:href="./images/6.1.jpg" class="sixBanner" alt="">
+                    </pattern>
+                  </defs>
+                  <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="seventhSection pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div>
+                <h2>My Working Process</h2>
+                <p style="font-size: 13px;">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus, tellus ac cursus. Aenean eu leo quam.</p>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="d-flex">
+                    <div>
+                      <h5 class="sevenNumber_box1">
+                        <span style="color: white">1</span>
+                      </h5>
+                    </div>
+                    <div>
+                      <h5>Concept</h5>
+                      <p style="font-size: 13px;">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="d-flex">
+                    <div>
+                      <h5 class="sevenNumber_box2">
+                        <span style="color: white">2</span>
+                      </h5>
+                    </div>
+                    <div>
+                      <h5>Prepare</h5>
+                      <p style="font-size: 13px;">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="d-flex">
+                    <div>
+                      <h5 class="sevenNumber_box3">
+                        <span style="color: white">3</span>
+                      </h5>
+                    </div>
+                    <div>
+                      <h5>Retouch</h5>
+                      <p style="font-size: 13px;">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="d-flex">
+                    <div>
+                      <h5 class="sevenNumber_box4">
+                        <span style="color: white">4</span>
+                      </h5>
+                    </div>
+                    <div>
+                      <h5>Finalize</h5>
+                      <p style="font-size: 13px;">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="eighthSection py-5">
+        <div class="container">
+          <div class="card eighthCard p-5 my-5">
+            <div class="card-body text-center">
+              <h2 class="card-title">Request Photography Pricing</h2>
+              <p class="card-text">For more information please get in touch using the form below:</p>
+              <form action="" class="pt-4">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control border-0" id="exampleInputName1" aria-describedby="NameHelp" placeholder="Name *">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="email" class="form-control border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email *">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="form-group">
+                      <textarea class="form-control border-0" id="exampleFormControlTextarea1" rows="3" placeholder="Message *"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <button type="button" class="btn rounded-pill eightBtn mr-2">Learn More</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="ninethSection pt-5 pb-3">
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-md-5">
+              <div>
+                <img class="mb-3" src="./images/0.png" alt="">
+                <p style="font-size: 13px;">I'm Caitlyn Sandbox, a photographer specializing in food, drink and product photography.</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="d-flex">
+                <div>
+                  <img class="mr-2" width="30" height="30" src="https://img.icons8.com/pulsar-line/48/phone.png" alt="phone"/>
+                </div>
+                <div>
+                  <h6>Phone</h6>
+                  <p class="m-0" style="font-size: 14px;">00 (123) 456 78 90</p>
+                  <p style="font-size: 14px;">00 (987) 654 32 10</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="d-flex">
+                <div>
+                  <img class="mr-2" width="25" height="25" src="https://img.icons8.com/ios/50/place-marker--v1.png" alt="place-marker--v1"/>
+                </div>
+                <div>
+                  <h6>Address</h6>
+                  <p class="m-0" style="font-size: 14px;">Moonshine St. 14/05 Light City, London, United Kingdom</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr style="color: lightgray;">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <p style="font-size: 13px; margin: 0;">© 2023 Sandbox. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-end">
+              <div class="m-0">
+                <i class="fa fa-twitter px-1"></i>
+                <i class="fa fa-facebook px-1"></i>
+                <i class="fa fa-dribbble px-1"></i>
+                <i class="fa fa-instagram px-1"></i>
+                <i class="fa fa-youtube-play px-1"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+    
+</body>
+</html>
